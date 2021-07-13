@@ -35,8 +35,8 @@ public class Program {
 		System.out.println("Data atual + 4 horas: " + dateFormat2.format(d));
 		
 		int minutes = calendar.get(Calendar.MINUTE);
-		int month = 1 + calendar.get(Calendar.MONTH);
-		
+		int month = 1 + calendar.get(Calendar.MONTH); //o mes dessa variavel começa com Janeiro = 0
+		 
 		System.out.println("Minutes: " + minutes);
 		System.out.println("Month: " + month);
 		
