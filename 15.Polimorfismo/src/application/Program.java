@@ -36,19 +36,16 @@ public class Program {
 			if (out == 'y') {
 				System.out.print("Additional charge: ");
 				double addCharge = sc.nextDouble();
-				Employee employee = new OutsourcedEmployee(name, hour, valuePerHour, addCharge);
-				list.add(employee);
+				list.add(new OutsourcedEmployee(name, hour, valuePerHour, addCharge));
 			} else {
-				Employee employee = new Employee(name, hour, valuePerHour);
-				System.out.println(employee.getName());
-				list.add(employee);
+				list.add(new Employee(name, hour, valuePerHour));
 			}
 			
 		}
 		
 		System.out.println("\nPAYMENTS: ");
 		for (Employee e : list) {
-			System.out.println(e.getName() + " - $ " + e.payment());
+			System.out.printf(e.getName() + " - $ %.2f%n", e.payment());
 		}
 		
 		
