@@ -33,11 +33,24 @@ public class Program {
 		if (acc3 instanceof SavingsAccount) {
 			System.out.println("Objetos do mesmo tipo - Savings");
 			SavingsAccount sacc1 = (SavingsAccount) acc3;
-			System.out.println("Update");
+			System.out.println("Update ");
 			sacc1.updateBalance();
 		}
 		
+		//Testando Sobreposição de metodo (Override)
+		System.out.println("Teste de sobreposição");
 		
+		Account acct = new Account(5000, "Edvan", 1000.0);
+		acct.withdraw(200.0);
+		System.out.println("Account balance: R$ " + acct.getBalance());
+		
+		Account acct2 = new SavingsAccount(6000, "Eduardo", 1000.0, 0.01);
+		acct2.withdraw(200.0);
+		System.out.println("Saving Account balance: R$ " + acct2.getBalance());
+		
+		Account acct3 = new BusinessAccount(7000, "Carol", 1000.0, 500.0);
+		acct3.withdraw(200.0);
+		System.out.println("Business Account balance: R$ " + acct3.getBalance());
 	}
 
 }
