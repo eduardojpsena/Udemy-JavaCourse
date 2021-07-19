@@ -12,10 +12,8 @@
     <fullyQualifiedTypeName name="entities.enums.WorkerLevel"/>
     <fullyQualifiedTypeName name="entities.Department"/>
     <fullyQualifiedTypeName name="entities.HourContract"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Tokens.Comment"/>
     <fullyQualifiedTypeName name="entities.Comment"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="entities.Post"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Type.ForAll"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -34,4 +32,13 @@
     <fullyQualifiedTypeName name="entities.Circle"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="model.Reservation"/>
+    <fullyQualifiedTypeName name="java.text.ParseException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="model.exceptions.DomainException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>
