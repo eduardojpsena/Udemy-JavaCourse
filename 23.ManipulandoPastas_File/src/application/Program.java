@@ -31,6 +31,14 @@ public class Program {
 		boolean success = new File(strPath + "\\subdir").mkdir();
 		System.out.println("Directory created successfully: " + success);		
 		
+		System.out.println("----------------------------");
+		//Caminho completo do arquivo + nome
+		System.out.println("getPath: " + path.getPath());
+		//Apenas o caminho do arquivo
+		System.out.println("getParent: " + path.getParent());
+		//Nome do arquivo
+		System.out.println("getName: " + path.getName());
+		
 		sc.close();
 		
 	}
