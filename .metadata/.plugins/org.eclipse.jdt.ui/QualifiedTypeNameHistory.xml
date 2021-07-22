@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="entities.Rent"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
     <fullyQualifiedTypeName name="entities.enums.WorkedLevel"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.api.JavacTaskPool.Worker"/>
     <fullyQualifiedTypeName name="entities.Worker"/>
     <fullyQualifiedTypeName name="entities.enums.WorkerLevel"/>
@@ -30,17 +29,12 @@
     <fullyQualifiedTypeName name="entities.Circle"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="model.Reservation"/>
     <fullyQualifiedTypeName name="java.text.ParseException"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="model.exceptions.DomainException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.io.File"/>
@@ -49,4 +43,18 @@
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.Annotation.Primitive_element_value"/>
+    <fullyQualifiedTypeName name="model.entities.Vehicle"/>
+    <fullyQualifiedTypeName name="model.entities.Invoice"/>
+    <fullyQualifiedTypeName name="model.services.BrasilTaxService"/>
+    <fullyQualifiedTypeName name="model.services.RentalService"/>
+    <fullyQualifiedTypeName name="model.services.TaxService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="model.services.OnlinePaymentService"/>
+    <fullyQualifiedTypeName name="model.entities.Contract"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="model.entities.Installment"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
