@@ -48,7 +48,6 @@
     <fullyQualifiedTypeName name="model.services.BrasilTaxService"/>
     <fullyQualifiedTypeName name="model.services.RentalService"/>
     <fullyQualifiedTypeName name="model.services.TaxService"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.services.OnlinePaymentService"/>
     <fullyQualifiedTypeName name="model.entities.Contract"/>
@@ -57,4 +56,5 @@
     <fullyQualifiedTypeName name="model.entities.Installment"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
