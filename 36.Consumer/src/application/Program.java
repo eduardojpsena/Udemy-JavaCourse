@@ -2,6 +2,7 @@ package application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 import model.entities.Product;
 import util.PriceUpdate;
@@ -18,9 +19,17 @@ public class Program {
 		list.add(new Product("HD Case", 80.90));
 
 		
-		list.forEach(Product::staticPriceUpdate); //reference method com metodo estatico
+//		list.forEach(new PriceUpdate()); //Implementação da interface Consumer
+//		
+//		list.forEach(Product::staticPriceUpdate); //reference method com metodo estatico
+//		
+//		list.forEach(Product::nomStaticPriceUpdate); //reference method com metodo nao estatico
 		
-		list.forEach(Product::nomStaticPriceUpdate); //reference method com metodo nao estatico
+		Consumer<Product> cons = p -> {
+			p.setPrice(p.getPrice() * 1.1);
+		};
+		list.forEach(cons); //Consumer utilizando expressão lambda declarada
+		
 
 		list.forEach(System.out::println);
 	}
