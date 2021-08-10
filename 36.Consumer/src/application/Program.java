@@ -24,12 +24,13 @@ public class Program {
 //		list.forEach(Product::staticPriceUpdate); //reference method com metodo estatico
 //		
 //		list.forEach(Product::nomStaticPriceUpdate); //reference method com metodo nao estatico
+//		
+//		Consumer<Product> cons = p -> {
+//			p.setPrice(p.getPrice() * 1.1);
+//		};
+//		list.forEach(cons); //Consumer utilizando expressão lambda declarada
 		
-		Consumer<Product> cons = p -> {
-			p.setPrice(p.getPrice() * 1.1);
-		};
-		list.forEach(cons); //Consumer utilizando expressão lambda declarada
-		
+		list.forEach(p -> p.setPrice(p.getPrice() * 1.1)); //Consumer utilizando expressão lambda inline
 
 		list.forEach(System.out::println);
 	}
