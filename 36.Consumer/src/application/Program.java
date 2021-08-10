@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.entities.Product;
+import util.PriceUpdate;
 
 public class Program {
 
@@ -17,6 +18,9 @@ public class Program {
 		list.add(new Product("HD Case", 80.90));
 
 		
+		list.forEach(new PriceUpdate());
+
+		list.forEach(System.out::println);
 	}
 
 }
