@@ -25,7 +25,15 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-
+	
+	public static void staticPriceUpdate(Product p) {
+		p.setPrice(p.getPrice() * 1.1);
+	}
+	
+	public void nomStaticPriceUpdate() {
+		setPrice(getPrice() * 1.1); 
+	}
+	
 	@Override
 	public String toString() {
 		return name + ", " + String.format("%.2f", price);
