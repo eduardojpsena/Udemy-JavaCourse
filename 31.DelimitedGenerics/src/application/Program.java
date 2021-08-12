@@ -11,11 +11,9 @@ public class Program {
 
 	public static void main(String[] args) {
 
-Locale.setDefault(Locale.US);
+		Locale.setDefault(Locale.US);
 		
 		List<Product> list = new ArrayList<>();
-
-		String path = "C:\\temp\\in.txt";
 
 		
 		list.add(new Product("Computer", 890.50));
