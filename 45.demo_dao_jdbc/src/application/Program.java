@@ -1,11 +1,10 @@
 package application;
 
-import java.sql.Connection;
+import java.util.List;
 
-import db.DB;
 import model.dao.DaoFactory;
 import model.dao.SellerDao;
-import model.dao.impl.SellerDaoJDBC;
+import model.entities.Department;
 import model.entities.Seller;
 
 public class Program {
@@ -14,10 +13,19 @@ public class Program {
 
 		SellerDao dao = DaoFactory.createSellerDao();
 		
-		Seller seller = dao.findById(3);
+		
+		System.out.println("\n== Seller teste findById ==");
+		Seller seller = dao.findById(2);
 		
 		System.out.println(seller);
 		
+		System.out.println("\n== Seller teste findByIdDepartment ==");
+		Department dep = new Department(1, null);
+		List<Seller> list = dao.findbyDepartment(dep);
+		for (Seller s : list) {
+			System.out.println(s);
+		}
+
 	}
 
 }
